@@ -1,0 +1,51 @@
+* {
+    font-family: Helvetica;
+    text-align: center; 
+  }
+  h1 {
+    font-size: 3rem;
+    margin: auto;
+    padding-top: 3rem;
+    color: rgb(5, 36, 58);
+  }
+  h2{
+    color: rgb(5, 36, 58);
+  }
+  h6 {
+    margin-top: 0rem;
+    color: rgb(93, 39, 8);
+  }
+  input,
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  button {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    table-layout: fixed;
+    display: inline-block;
+    width: 10%;
+    color: rgb(5, 36, 58);
+    background: whitesmoke;
+    margin-right: 5px;
+    border-style: none;
+  }
+  button:nth-last-child(2),
+  button:nth-last-child(1) {
+    margin-top: 1rem;
+    min-width: 25%;
+    background: rgb(5, 36, 58);
+    color: white;
+  }
+  .textInputContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
